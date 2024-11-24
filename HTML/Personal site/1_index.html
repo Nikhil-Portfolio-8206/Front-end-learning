@@ -4,35 +4,81 @@
 <head>
     <meta charset="utf-8">
     <title>Learning HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1,
+        h2 {
+            color: #0056b3;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: monospace;
+            background: #eef;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>My Step wise learning curve in HTML</h1>
     <p><em>what is HTML?</em></p>
-    <p> HTML is a <em>Hyper-text markup language</em> which is used to make <strong>structure</strong> of any webisite content.</p>
+    <p> HTML is a <em>Hyper-text markup language</em> which is used to make <strong>structure</strong> of any webisite.
+    </p>
     <hr sized="3" noshade>
+    <h4>Basic boilerplate of HTML</h4>
+    <pre>
+        <code>
+            &lt;!DOCTYPE html&gt; <b>tell the browswer type of document</b> 
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="utf-8"&gt; <b><u>meta tag</u> is used to provide information about web page | <u>charset</u> is an attribute of meta tag which used to inform about the character used i.e uniform transformation format </b>
+                &lt;title&gt;My First Page&lt;/title&gt; <b>whatever written here is used to display in tab of a browser</b>
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Welcome to HTML&lt;/h1&gt;
+                &lt;p&gt;This is a paragraph.&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
     <h2>Front-end Skills</h2>
-    <ol type="1"> 
-    <h3>Odered list type Number</h3>
+    <ol type="1">
+        <h3>Odered list type Number</h3>
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
         <li>React</li>
     </ol>
-    <ol type="A"> 
+    <ol type="A">
         <h3>Odered list type Uppercase </h3>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>React</li>
-        </ol>
-        <ol type="I"> 
-            <h3>Odered list type Roman </h3>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>React</li>
-            </ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>React</li>
+    </ol>
+    <ol type="I">
+        <h3>Odered list type Roman </h3>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>React</li>
+    </ol>
 </body>
 
 </html>
